@@ -57,6 +57,8 @@ const main = async() => {
         key.addEventListener('click', () => {
             if (!isWin) {
                 if (key.className === "keyboard-box wide erase") {
+                    if (currentLetterIndex == 0 || !(currentLetterIndex-1 < wordCount*5 && (wordCount-1)*5 <= currentLetterIndex-1)) return;
+    
                     currentLetterIndex--;
                     count--;
                     letters[currentLetterIndex].innerHTML = "";
