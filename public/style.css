@@ -1,0 +1,70 @@
+body {
+    background-color: #121213;
+}
+
+.letter-box {
+    height: 58px;
+    width: 58px;
+    border: 2px solid #353537;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    background-color: #121213;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#game {
+    margin-top: 50px;
+}
+
+#keyboard {
+    margin-top: 50px;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+.keyboard-box {
+    height: 55px;
+    width: 42px;
+    background-color: #818384;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-bottom: 9px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fdfbf5;
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.wide {
+    width: 70px;
+}
+
+.keyboard-box:hover {
+    cursor: pointer;
+}
+
+hr {
+    border-color: #ffffff;
+    border-width: 3px;
+}
+
+#playAgainBtn {
+    display: none;
+}
