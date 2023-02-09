@@ -24,7 +24,7 @@ const GREEN = "#538d4e";
 const YELLOW = "#b59f3b";
 const GRAY = "#3a3a3c";
 
-const API_URL = "http://localhost:8080/api/words";
+const API_URL = "https://wordle-clone.onrender.com/api/words";
 
 // Gets all of the words from the api and returns them in an array
 const getWords = async() => {
